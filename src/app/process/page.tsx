@@ -2,6 +2,8 @@ import Link from "next/link";
 
 export default function Process() {
   return (
+		<>
+		<Link href="/">Back</Link>
     <div className="text-center w-full">
       <p className="text-2xl m-auto w-3/6">
         There are two major parts of this site. The chess simulation (checking
@@ -37,5 +39,6 @@ export default function Process() {
         ></iframe>
       </div>
     </div>
+		</>
   );
 }
